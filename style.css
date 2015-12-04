@@ -25,7 +25,7 @@
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: linear-gradient(to bottom, white, lightblue);
+	background: linear-gradient(to bottom, white, red);
 	background-attachment: fixed;
 	font-family: "Roboto";
 }
@@ -118,17 +118,20 @@ nav>ul>li {
 
 #aboutcontent {
 	margin: 10px;
-	background: white;
+	background: grey;
 	padding: 15px 15px;
 	border: 5px;
 	border-radius: 20px;
 	min-width: 700px;
+	font-family: "Roboto";
 }
 
 #company {
 	width: 100%;
 	text-align: center;
 	margin: 30px 0;
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #company>h2 {
@@ -148,7 +151,8 @@ nav>ul>li {
 	font-size: 4em;
 	text-align: center;
 	margin: 25px 0;
-	background-color: grey;
+	background-color: white;
+	border: 2px solid black;
 	border-radius: 10px;
 }
 
@@ -168,6 +172,7 @@ nav>ul>li {
 	margin: 40px 0;
 	text-align: center;
 	border: 2px black solid;
+	background: white;
 }
 
 .Person p{
@@ -189,10 +194,15 @@ nav>ul>li {
 
 .transformers h3{
 	font-size:1.2em;
+	color: white;
+	width: auto;
 }
 
 .transformers p{
 	font-size: 1em;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px;
 }
 
 .transformers img {
@@ -203,11 +213,12 @@ nav>ul>li {
 
 #formcontent {
 	margin: 10px;
-	background: white;
+	background: lightblue;
 	padding: 25px 15px;
 	border: 5px;
 	border-radius: 20px;
 	min-width: 400px;
+	font-family: "Roboto";
 }
 
 #form-article {
@@ -276,6 +287,24 @@ nav>ul>li {
 	display: none;
 }
 
-#resp-article {
-	
+#resp-article{
+	display: block;
+	margin: 10px 10%;
+	background-color: grey;
+	padding: 0 10%;
+	border-radius: 15px;
+}
+
+#resp-article h3{
+	text-align: center;
+	font-size: 3em;
+}
+
+#resp-article p {
+	margin: 10px 0;
+	font-size: 1.5em;
+}
+
+#resp-article img{
+	margin 10px 0;
 }
