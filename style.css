@@ -25,7 +25,7 @@
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: linear-gradient(to bottom, white, lightblue);
+	background: linear-gradient(to bottom, white, red);
 	background-attachment: fixed;
 	font-family: "Roboto";
 }
@@ -103,7 +103,7 @@ nav>ul>li {
 #changing_image {
 	position: relative;
 	width: 100%;
-	bottom: 70px;
+	bottom: 100px;
 	min-width: 768px;
 }
 
@@ -118,11 +118,12 @@ nav>ul>li {
 
 #aboutcontent {
 	margin: 10px;
-	background: white;
+	background: lightblue;
 	padding: 15px 15px;
 	border: 5px;
 	border-radius: 20px;
 	min-width: 700px;
+	
 }
 
 #company {
@@ -203,7 +204,7 @@ nav>ul>li {
 
 #formcontent {
 	margin: 10px;
-	background: white;
+	background-color: light-blue;
 	padding: 25px 15px;
 	border: 5px;
 	border-radius: 20px;
